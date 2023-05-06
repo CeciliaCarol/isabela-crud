@@ -55,7 +55,7 @@
                                     <x-text-input name="expiration" placeholder="Expiration" value="{{ $material->expiration}}" />
                                     <x-primary-button class="w-full text-center mt-2">Save</x-primary-button>
                                 </from>
-                                <x-danger-button @click="shoEdit = false" class="w-full">Cancel</x-danger-button>
+                                <x-danger-button @click="showEdit = false" class="w-full">Cancel</x-danger-button>
                                </div>
                             </div>
                         </template>
